@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>ETCH A SKETCH!</h1>
+        </header>
+        <div class="layout">
+            <div class="tools" id="tools">
+                <div class="grid-selector" id="grid-selector">
+                    <p>GRID RANGE</p>
+                    <input type="range" min="1" max="64" value="30" class="slider" name="slider" id="grid-range">
+                </div>
+                <button type="button" class="btn swatches1" id="swatches1">SWATCHES1</button>
+                <button type="button" class="btn swatches2" id="swatches2">SWATCHES2</button>
+                <button type="button" class="btn random" id="random">RANDOM</button>
+            </div>
+            <div class="grid-container" id="grid-container"></div>
+            <div class="info" id="info">
+                <div class="colors" id="colors"></div>
+                <div class="reset" id="reset"></div>
+                <div class="date"></div>
+            </div>
+        </div>
+        <footer id="footer">ODIN PROJECT</footer>
+    </main>
+
+</body>
+
+</html>
