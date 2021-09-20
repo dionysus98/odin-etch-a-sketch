@@ -110,8 +110,25 @@ header:hover{
 
 .grid-container{
     flex: 3;
+    background-color: #edf5e16b;
+    
 }
 .info{
     flex: 1;
+    margin: 0.5em 1em; 
+    padding: 1em 1em;
+}
+.reset{
+    background-color: #05386b;
+}
+
+footer{
+    text-align: center;
+    color: #05386b;
+    margin: 3em 0;
+}
+footer:hover{
+    color: greenyellow;
+    text-shadow: 1.5px 1.95px 0.4px black;
 }
 
