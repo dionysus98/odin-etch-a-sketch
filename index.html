@@ -16,161 +16,23 @@
             <h1>ETCH A SKETCH!</h1>
         </header>
         <div class="layout">
+
             <div class="tools" id="tools">
                 <div class="grid-selector" id="grid-selector">
                     <p>GRID RANGE</p>
                     <input type="range" min="1" max="64" value="30" class="slider" name="slider" id="grid-range">
+                    <p class="grid-size" id="grid-size"></p>
+                    <button type="button" class="btn grid-btn" id="grid-btn">SET SIZE</button>
                 </div>
                 <button type="button" class="btn swatches1" id="swatches1">SWATCHES1</button>
                 <button type="button" class="btn swatches2" id="swatches2">SWATCHES2</button>
                 <button type="button" class="btn random" id="random">RANDOM</button>
             </div>
-            <div class="grid-container" id="grid-container">
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-                <div class="grid"></div>
-            </div>
+
+
+            <div class="grid-container" id="grid-container"></div>
+
+
             <div class="info" id="info">
                 <div class="colors" id="colors">
                     <label for="color">SELECT COLOR : </label>
@@ -184,7 +46,8 @@
                 </div>
             </div>
         </div>
-        <footer id="footer">ODIN PROJECT</footer>
+
+        <footer id="footer"><a target="_blank" href="https://www.theodinproject.com/home">ODIN PROJECT</a></footer>
     </main>
 
 </body>
