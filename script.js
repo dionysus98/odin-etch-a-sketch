@@ -10,25 +10,21 @@ const gridItem = document.createElement('div');
 
 
 
-output.textContent = `GRID SIZE : ${slider.value} x ${slider.value}`;
+gridBtn.addEventListener('click', function () {
 
-slider.oninput = function () {
-    output.textContent = `GRID SIZE : ${this.value} x ${this.value}`;
+    output.textContent = `GRID SIZE : ${slider.value} x ${slider.value}`;
 
-    for (let i = 0; i < this.value ** 2; i++) {
-        const gridItem = document.createElement('div');
-        gridContainer.style.gridTemplate = `repeat(${this.value},1fr)/repeat(${this.value},1fr)`;
-
-        gridBtn.addEventListener('click', function style() {
-            gridItem.classList.remove('grid');
-            gridItem.classList.add('grid');
-            gridContainer.appendChild(gridItem);
-        })
+    slider.oninput = function () {
+        output.textContent = `GRID SIZE : ${this.value} x ${this.value}`;
 
     }
-
-
-}
+    for (let i = 0; i < slider.value ** 2; i++) {
+        const gridItem = document.createElement('div');
+        gridContainer.style.gridTemplate = `repeat(${slider.value},1fr)/repeat(${slider.value},1fr)`;
+        gridItem.classList.add('grid');
+        gridContainer.appendChild(gridItem);
+    }
+});
 
 //
 

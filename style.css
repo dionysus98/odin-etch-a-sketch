@@ -116,8 +116,8 @@ header:hover{
 
 .grid-container{
     /* flex: 3; */
-    width: 700px;
-    height: 700px;
+    width: 750px;
+    height: 750px;
     background-color: #edf5e1;
     display: grid;
     /* grid-template-columns:repeat(12,1fr) ;
