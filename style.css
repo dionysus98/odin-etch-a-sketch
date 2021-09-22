@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto+Mono&family=Source+Code+Pro&display=swap');
 
-*{
-    box-sizing: border-box;
-    /* border: 1px solid dodgerblue; */
-    /* padding: 1em; */
-}
-    
-
 /* font-family: 'Amatic SC', cursive;
 
 font-family: 'Roboto Mono', monospace;
 
 font-family: 'Source Code Pro', monospace; */
+
+*{
+    box-sizing: border-box;
+    /* border: 1px solid dodgerblue; */
+    /* padding: 1em; */
+}
+
 
 body{
     background-color: #5cdb95;
@@ -21,8 +21,6 @@ body{
 main{
     margin: 0 auto;
     width: 90%;
-    /* width: 100vw;
-    height: 100vh; */
 }
 
 header{
@@ -45,10 +43,6 @@ header:hover{
 }
 
 .tools{
-    /* flex:1; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
     background-color: hsla(84, 50%, 92%, 0.301);
     padding: 10px 60px;
     opacity: 0.8;
@@ -80,6 +74,8 @@ header:hover{
 
 .grid-size{
     font-size: 0.75rem;
+    background-color: rgba(255, 248, 220, 0.445);
+    border-radius: 100px;
 }
 
 .btn{
@@ -117,15 +113,11 @@ header:hover{
 }
 
 .grid-container{
-    /* flex: 3; */
     width: 750px;
     height: 750px;
     background-color: white;
     display: grid;
-    /* grid-template-columns:repeat(12,1fr) ;
-    grid-template-rows:repeat(12,1fr) ; */
     gap: 0;
-    /* justify-items: stretch; */
 }
 .grid{
     border: 0.01px solid rgba(0, 0, 0, 0.205);
@@ -137,7 +129,6 @@ header:hover{
     background-color: black;
 }
 .info{
-    /* flex: 1;  */
     margin: 0px 0;
     padding: 10px 60px;
     background-color: hsla(84, 50%, 92%, 0.301);
@@ -162,6 +153,9 @@ header:hover{
     background-color: whitesmoke;
     margin: 0 55px;
     color:rgba(0, 0, 0, 0.596);
+}
+.eraser-active{
+    background-color: cornflowerblue;
 }
 
 .colors{
@@ -199,8 +193,7 @@ footer a:hover{
 }
 
 .cat{
-    color: white;
-    text-shadow: 1px 1px 0.3px black;
+    color:cornflowerblue;
     font-size: 18px;
     text-align: center;
 }

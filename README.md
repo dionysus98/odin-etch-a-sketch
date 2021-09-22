@@ -1,1 +1,1 @@
-Etch a sketch - JavaScript - Odin project
+Etch a Sketch - JavaScript - Dom Manipulation - Odin Project
