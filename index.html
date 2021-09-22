@@ -22,29 +22,39 @@
                     <p>GRID RANGE</p>
                     <input type="range" min="1" max="64" default="8" value="30" class="slider" name="slider"
                         id="grid-range">
-                    <p class="grid-size" id="grid-size"> GRID-SIZE : set size</p>
+                    <p class="grid-size" id="grid-size"> GRID-SIZE : set size </p>
                     <button type="button" class="btn grid-btn" id="grid-btn">SET SIZE</button>
                 </div>
                 <button type="button" class="btn swatches1" id="swatches1">SWATCHES1</button>
                 <button type="button" class="btn swatches2" id="swatches2">SWATCHES2</button>
                 <button type="button" class="btn random" id="random">RANDOM</button>
+                <div class="note">
+                    <p class="note__text">IF SET-SIZE FAILS TO WORK PROPERLY, CLICK THE RESET BUTTON AND SET SIZE-AGAIN.
+                        <br> HAVE FUN!
+                    </p>
+                </div>
             </div>
 
 
             <div class="grid-container" id="grid-container"></div>
 
-
             <div class="info" id="info">
                 <div class="colors" id="colors">
                     <label for="color">SELECT COLOR : </label>
-                    <input type="color" name="color" value="50" id="color">
+                    <input type="color" name="color" class="color" value="#000" id="color">
+                    <p> COLOR VALUE: <span id="color-value"></span> </p>
+                    <button type="button" class="color-btn btn" id="color-btn">SELECT</button>
+
                 </div>
+                <button type="button" class="eraser btn" id="eraser">ERASER</button>
                 <button type="button" class="reset btn" id="reset">RESET</button>
                 <div class="image" id="image">
                     <img id="img" class="img" width="300px"
                         src="https://64.media.tumblr.com/5b1263a2284bc095ce67ebe697a9e0a4/tumblr_pdnw7tom9z1vryx0co1_500.gif"
                         alt="animated sleeping cat" srcset="">
+                    <p class="cat" id="cat"></p>
                 </div>
+
             </div>
         </div>
 
